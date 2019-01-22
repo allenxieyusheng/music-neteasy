@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/me/index",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/search/index",
+        "pages/login/index",
+        "pages/playlist/index",
+        "pages/playing/index",
+        "pages/test/index"
+    ],
+    "window": {
+        "navigationBarTextStyle": "#fff",
+        "navigationBarTitleText": "网易云音乐",
+        "backgroundColor": "#fbfcfd",
+        "navigationBarBackgroundColor": "#BB2C08"
+    },
+    "tabBar": {
+        "color": "#aaa",
+        "selectedColor": "#fff",
+        "borderStyle": "#333",
+        "backgroundColor": "#212121",
+        "list": [
+            {
+                "pagePath": "pages/home/index",
+                "iconPath": "image/cm2_btm_icn_discovery.png",
+                "selectedIconPath": "image/cm2_btm_icn_discovery_prs.png",
+                "text": "发现音乐"
+            },
+            {
+                "pagePath": "pages/me/index",
+                "iconPath": "image/cm2_btm_icn_music.png",
+                "selectedIconPath": "image/cm2_btm_icn_music_prs.png",
+                "text": "我的音乐"
+            }
+        ]
+    }
+}

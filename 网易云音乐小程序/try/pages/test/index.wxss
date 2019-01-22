@@ -1,0 +1,19 @@
+/* pages/test/index.wxss */
+@keyframes circle{0%{transform: rotate(0deg)}100%{ transform: rotate(360deg)}}
+
+.kuang{
+  margin: 160rpx auto 0;
+  position: relative;
+  z-index: 10;
+  width: 400rpx;
+  height: 400rpx;
+  -webkit-animation: circle 20s linear infinite;
+  -moz-animation: circle 20s linear infinite;
+  animation: circle 20s linear infinite;
+  background-color: red;
+}
+
+.playing-zz {width: 222rpx;height:366rpx;margin:-60rpx 0 0 60px; transform-origin:60rpx 60rpx; transform: rotate(-20deg);
+transition: all linear .5s }
+
+.playing {transform: rotate(-0deg);transition: all linear .5s}

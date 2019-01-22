@@ -1,0 +1,9 @@
+<view class="container">
+  <label>点击红色正方形(旋转/暂停)</label>
+  <view class="kuang" style="animation-play-state:{{playing?'running':'paused'}} !important" bindtap="bingclick"></view>
+</view>
+
+
+<view class="{{playing?'playing':'playing-zz'}}">
+  <view style="height:100rpx;width:100rpx;background:red"></view>
+</view>
